@@ -17,7 +17,6 @@ function prime({ num }) {
   }
   return true;
 }
-
 async function getCryptoPrice({ coin }) {
   let response = await fetch(
     `https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=${coin}`
