@@ -10,8 +10,8 @@
     "dev": "node index.js"
   },
   "dependencies": {
-    "@google/genai": "^1.7.0",
-    "@google/generative-ai": "^0.24.1",
+    "@google/genai": "1.7.0",
+    "@google/generative-ai": "0.24.1",
     "readline-sync": "^1.4.10"
   }
 }
