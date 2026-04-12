@@ -3,7 +3,7 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 
 const History = [];
 
-const ai = new GoogleGenerativeAI('AIzaSyD2RoOZPTkZSQAgUKYM4hrcP1V9Q51suqQ'); // Replace with your actual API key
+const ai = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY); // Replace with your actual API key
 
 // 1. FUNCTIONS
 function sum({ num1, num2 }) {
